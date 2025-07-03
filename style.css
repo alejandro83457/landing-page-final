@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto;
+  font-size: 18px;
 }
 
 header {
@@ -10,9 +11,10 @@ header {
   flex-direction: column;
   background-color: #1f2937;
   color: #f9faf8;
-  height: 500px;
+  /* height: 500px; */
   gap: 5rem;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 header > * {
@@ -21,6 +23,7 @@ header > * {
 
 .header-logo {
   font-size: 24px;
+  font-weight: 500;
 }
 
 .title {
@@ -35,8 +38,7 @@ header > * {
 }
 
 .section11 {
-  font-size: 18px;
-  color: #e5e7eb;
+  color: lightgray;
   display: flex;
   gap: 1rem;
 }
@@ -57,13 +59,15 @@ header > * {
 }
 
 .section21 > p {
-  font-size: 18px;
   color: #e5e7eb;
 }
 
 .section21 > button {
   width: fit-content;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 7px;
 }
 
 .section22 {
@@ -72,4 +76,44 @@ header > * {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title2 {
+  padding: 3rem;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img2 {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.card p {
+  width: 200px;
+  color: gray;
+  text-align: center;
 }
